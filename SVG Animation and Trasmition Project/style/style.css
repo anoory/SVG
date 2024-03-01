@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 225, 127);
+  text-align: center;
+}
+.Funclub {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900 !important ;
+  text-align: center;
+}
+
+.About {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900 !important;
+  font-style: normal;
+  text-align: center;
+}
+.Info {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400 !important ;
+  text-align: center;
+  font-style: normal;
+}
+
+.btn {
+  background-color: darkred;
+  color: aliceblue;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: chartreuse;
+  transition: all 0.7s ease-in-out;
+}
+@keyframes imageAnimation {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.FubclubImage {
+  border-radius: 10px;
+  animation: imageAnimation 10s infinite;
+}
