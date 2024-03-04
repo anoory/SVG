@@ -1,17 +1,7 @@
-<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-      <circle
-        cx="110"
-        cy="110"
-        r="100"
-        stroke="black"
-        stroke-width="15"
-        fill="white"
-      />
-      <line
-        x1="270"
-        y1="240"
-        x2="190"
-        y2="170"
-        style="stroke: black; stroke-width: 15"
-      />
-    </svg>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="externalSymbol">
+    <circle cx="110" cy="110" r="100" stroke="black" stroke-width="15" fill="white" />
+    <line x1="270" y1="240" x2="190" y2="170" style="stroke: black; stroke-width: 15" />
+  </symbol>
+  <use xlink:href="#externalSymbol" />
+</svg>
